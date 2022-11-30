@@ -1,0 +1,57 @@
+.sidebar {
+  background-color: rgb(48, 43, 83);
+  color: white;
+  height: 100vh;
+  width: 200px;
+  padding-top: 5px;
+}
+
+.bar {
+  display: flex;
+  /* padding: 10px 5px 5px 5px; */
+  margin: 10px;
+  align-items: center;
+}
+
+.bar span {
+  padding: 2px;
+}
+
+.bar :hover {
+  cursor: context-menu;
+}
+
+.row:hover {
+  border-left: 5px solid white;
+  background: rgb(159, 153, 233);
+  width: 100%;
+  transition: 0.5;
+}
+
+.row {
+  /* position: absolute; */
+  float: left;
+  margin: 0%;
+  padding: 0%;
+}
+
+.content {
+  display: flex;
+  float: right;
+  position: absolute;
+  margin-top: -50%;
+  padding-left: 230px;
+}
+
+.row.li:active{
+  border-left: 5px solid white;
+  background: rgb(159, 153, 233);
+  width: 100%;
+  transition: 0.5;
+}
+
+.container {
+  position: relative;
+  margin: 0%;
+  padding: 0%;
+}

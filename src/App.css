@@ -1,0 +1,55 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.App {
+  text-decoration: black;
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: gainsboro;
+}
+
+.heading2{
+  background: white;
+  height: 50px;
+  width: 89%;
+  padding: 4px;
+  gap: 50%;
+  font-weight: 900;
+  font-size: medium;
+  padding-top: 15px;
+}
+
+.select{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  text-decoration-color: black;
+  padding-left: 300px ;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.filter{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  padding-left: 300px;
+  padding-top: 45px;
+}
+
+.heading2 img{
+  display: flex;
+  float: right;
+  padding-right: 80px;
+  padding-top: 0%;
+}
+
+.sidebar:active{
+  background: rgb(144, 132, 193);
+}
